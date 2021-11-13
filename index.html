@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="calc.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/calc.css">
 
   <title>Programming Basics Course LoftBlog</title>
 </head>
@@ -17,22 +17,72 @@
           <div class="calc_wrapper">
             <div class="calc">
               <div class="calc_display">
-                <input type="text" name="" class="calc_display_input" id="" placeholder="00">
+                <input type="text" name="" class="calc_display_input" id="" placeholder="00000000000000">
               </div>
               <div class="calc_buttons">
                 <table class="calc_table">
                   <tr class="calc_buttons_row">
                     <td>
-                      <button type="button" class="btn">ce</button>
+                      <button type="button" class="btn btn_red">ce</button>
                     </td>
                     <td>
-
+                      <button type="button" class="btn btn_red">c</button>
                     </td>
                     <td>
-
+                      <button type="button" class="btn btn_blue">/</button>
                     </td>
                     <td>
-
+                      <button type="button" class="btn btn_blue">*</button>
+                    </td>
+                  </tr>
+                  <tr class="calc_buttons_row">
+                    <td>
+                      <button type="button" class="btn">7</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn">8</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn">9</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn_blue">-</button>
+                    </td>
+                  </tr>
+                  <tr class="calc_buttons_row">
+                    <td>
+                      <button type="button" class="btn">4</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn">5</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn">6</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn_blue">+</button>
+                    </td>
+                  </tr>
+                  <tr class="calc_buttons_row">
+                    <td>
+                      <button type="button" class="btn">1</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn">2</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn">3</button>
+                    </td>
+                    <td rowspan="2">
+                      <button type="button" class="btn btn_tall btn_blue">=</button>
+                    </td>
+                  </tr>
+                  <tr class="calc_buttons_row">
+                    <td colspan="2">
+                      <button type="button" class="btn btn_long">0</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn">.</button>
                     </td>
                   </tr>
                 </table>
@@ -51,6 +101,7 @@
   </main>
   
 
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/cycles.js"></script>
 </body>
 </html>
