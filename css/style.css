@@ -66,3 +66,11 @@ text-decoration: none;
 font-size: 24px;
 color: #0790ec;
 }
+
+footer {
+  font-size: 12px;
+  font-weight: 100;
+  color: #202020;
+  text-align: center;
+  padding-bottom: 4px;
+}
