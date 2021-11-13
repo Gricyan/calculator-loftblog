@@ -19,7 +19,7 @@ body {
   overflow: hidden;
   position: relative;
   min-width: 1200px;
-  background: url(/img/bg.jpg) center center no-repeat;
+  background: url(../img/bg.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -51,4 +51,18 @@ body {
   margin-bottom: 40px;
   font-size: 55px;
   font-weight: 100;
+}
+
+.about_btn {
+border: 1px solid #ededed;
+border-radius: 24px;
+background-color: #fdfdfd;
+box-shadow: 0px 2px 2px 0px rgb(7 114 172 / 75%);
+height: 52px;
+display: inline-block;
+line-height: 52px;
+padding: 0 25px;
+text-decoration: none;
+font-size: 24px;
+color: #0790ec;
 }
