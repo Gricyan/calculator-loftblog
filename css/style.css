@@ -1,6 +1,6 @@
 @font-face {
   font-family: calcFont;
-  src: url(../fonts/Digital-Display.woff);
+  src: url(../fonts/Digital-7Mono.woff);
 }
 
 body, html {
@@ -12,6 +12,11 @@ body, html {
   
 body {
   font-family: "helvetica", Arial, sans-serif; 
+}
+
+a {
+  text-decoration: none;
+  
 }
 
 .wrapper {

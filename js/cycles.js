@@ -1,5 +1,7 @@
 // Cycles
 
+/*
+
 // while cycle /////////////////////////////////////////////////
 
 console.log('// while cycle');
@@ -66,3 +68,5 @@ for(i=0, sum=0; i<=arr.length; i++) {
   sum += arr[i];
   console.log(sum);
 };
+
+*/

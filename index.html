@@ -26,63 +26,63 @@
                       <button type="button" id="ce" class="btn btn_red">ce</button>
                     </td>
                     <td>
-                      <button type="button" class="btn btn_red">c</button>
+                      <button type="button" id="c" class="btn btn_red">c</button>
                     </td>
                     <td>
-                      <button type="button" class="btn btn_blue">/</button>
+                      <button type="button" class="btn btn_blue operation">/</button>
                     </td>
                     <td>
-                      <button type="button" class="btn btn_blue">*</button>
-                    </td>
-                  </tr>
-                  <tr class="calc_buttons_row">
-                    <td>
-                      <button type="button" class="btn">7</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn">8</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn">9</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn_blue">-</button>
+                      <button type="button" class="btn btn_blue operation">*</button>
                     </td>
                   </tr>
                   <tr class="calc_buttons_row">
                     <td>
-                      <button type="button" class="btn">4</button>
+                      <button type="button" class="btn number">7</button>
                     </td>
                     <td>
-                      <button type="button" class="btn">5</button>
+                      <button type="button" class="btn number">8</button>
                     </td>
                     <td>
-                      <button type="button" class="btn">6</button>
+                      <button type="button" class="btn number">9</button>
                     </td>
                     <td>
-                      <button type="button" class="btn btn_blue">+</button>
+                      <button type="button" class="btn btn_blue operation">-</button>
                     </td>
                   </tr>
                   <tr class="calc_buttons_row">
                     <td>
-                      <button type="button" class="btn">1</button>
+                      <button type="button" class="btn number">4</button>
                     </td>
                     <td>
-                      <button type="button" class="btn">2</button>
+                      <button type="button" class="btn number">5</button>
                     </td>
                     <td>
-                      <button type="button" class="btn">3</button>
+                      <button type="button" class="btn number">6</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn_blue operation">+</button>
+                    </td>
+                  </tr>
+                  <tr class="calc_buttons_row">
+                    <td>
+                      <button type="button" class="btn number">1</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn number">2</button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn number">3</button>
                     </td>
                     <td rowspan="2">
-                      <button type="button" class="btn btn_tall btn_blue">=</button>
+                      <button type="button" id="result" class="btn btn_tall btn_blue">=</button>
                     </td>
                   </tr>
                   <tr class="calc_buttons_row">
                     <td colspan="2">
-                      <button type="button" class="btn btn_long">0</button>
+                      <button type="button" class="btn btn_long number">0</button>
                     </td>
                     <td>
-                      <button type="button" class="btn">.</button>
+                      <button type="button" id="decimal" class="btn">.</button>
                     </td>
                   </tr>
                 </table>
@@ -94,13 +94,17 @@
           <h1 class="title">
             Simple calculator
           </h1>
-          <p class="about_btn">How does it work?</p>
+          <div class="about">
+            <div class="about_btn">
+              <a href="#" id="howWorkBtn" class="about_btn_link">How does it work?</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </main>
   <footer>
-    <p>© All rights reserved. Please do not copy or steal this site. Project of LOFTBLOG team. 2021</p>
+    <p>Project of LOFTBLOG team. 2021</p>
   </footer>
   <script src="js/main.js"></script>
   <script src="js/calc.js"></script>
