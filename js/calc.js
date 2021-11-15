@@ -1,4 +1,5 @@
 /* examples
+
 var btn = document.getElementById('ce');
 var display = document.getElementById('display');
 
@@ -11,12 +12,15 @@ display.addEventListener('keyup', function (e){
 });
 */
 
+// this part sends buttons value to the display input value
+
+/*
 var btns = document.querySelectorAll('.btn');
 var display = document.getElementById('display');
 
 var handleClick = function (e) {
   var value = e.target.textContent;
-  display.value  = value;
+  display.value = value;
 }
 
 for (var i = 0; i < btns.length; i++) {
@@ -24,3 +28,4 @@ for (var i = 0; i < btns.length; i++) {
 
   btn.addEventListener('click', handleClick);
 };
+*/

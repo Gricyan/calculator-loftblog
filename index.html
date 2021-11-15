@@ -17,22 +17,22 @@
           <div class="calc_wrapper">
             <div class="calc">
               <div class="calc_display">
-                <input type="text" name="" class="calc_display_input" id="display" placeholder="00000000000000">
+                <input disabled type="text" value="0" name="" class="calc_display_input" id="display" placeholder="00000000000000">
               </div>
               <div class="calc_buttons">
                 <table class="calc_table">
                   <tr class="calc_buttons_row">
                     <td>
-                      <button type="button" id="ce" class="btn btn_red">ce</button>
+                      <button type="button" id="ce" class="btn btn_red clear_btn">ce</button>
                     </td>
                     <td>
-                      <button type="button" id="c" class="btn btn_red">c</button>
+                      <button type="button" id="c" class="btn btn_red clear_btn">c</button>
                     </td>
                     <td>
-                      <button type="button" class="btn btn_blue operation">/</button>
+                      <button value="Division" type="button" class="btn btn_blue operation">/</button>
                     </td>
                     <td>
-                      <button type="button" class="btn btn_blue operation">*</button>
+                      <button value="Multiplication" type="button" class="btn btn_blue operation">*</button>
                     </td>
                   </tr>
                   <tr class="calc_buttons_row">
@@ -46,7 +46,7 @@
                       <button type="button" class="btn number">9</button>
                     </td>
                     <td>
-                      <button type="button" class="btn btn_blue operation">-</button>
+                      <button value="Subtraction" type="button" class="btn btn_blue operation">-</button>
                     </td>
                   </tr>
                   <tr class="calc_buttons_row">
@@ -60,7 +60,7 @@
                       <button type="button" class="btn number">6</button>
                     </td>
                     <td>
-                      <button type="button" class="btn btn_blue operation">+</button>
+                      <button value="Addition" type="button" class="btn btn_blue operation">+</button>
                     </td>
                   </tr>
                   <tr class="calc_buttons_row">
@@ -74,7 +74,7 @@
                       <button type="button" class="btn number">3</button>
                     </td>
                     <td rowspan="2">
-                      <button type="button" id="result" class="btn btn_tall btn_blue">=</button>
+                      <button value="Equality" type="button" id="result" class="btn btn_tall btn_blue operation">=</button>
                     </td>
                   </tr>
                   <tr class="calc_buttons_row">
@@ -92,11 +92,16 @@
         </div>
         <div class="page_right">
           <h1 class="title">
-            Simple calculator
+            Simple Calculator
           </h1>
           <div class="about">
             <div class="about_btn">
               <a href="#" id="howWorkBtn" class="about_btn_link">How does it work?</a>
+            </div>
+            <div>
+              <ul id="operationsList">
+
+              </ul>
             </div>
           </div>
         </div>
@@ -108,6 +113,6 @@
   </footer>
   <script src="js/main.js"></script>
   <script src="js/calc.js"></script>
-  <script src="js/cycles.js"></script>
+  <script src="js/loops.js"></script>
 </body>
 </html>

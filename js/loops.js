@@ -1,10 +1,10 @@
-// Cycles
+// Loops
 
 /*
 
-// while cycle /////////////////////////////////////////////////
+// while Loop /////////////////////////////////////////////////
 
-console.log('// while cycle');
+console.log('// while Loop');
 
 digit = 1;
 
@@ -15,14 +15,14 @@ while (digit <= 10) {
 
 console.log(digit + ' is more than 10!');
 
-// do...while cycle /////////////////////////////////////////////
+// do...while Loop /////////////////////////////////////////////
 
-console.log('// do...while cycle');
+console.log('// do...while Loop');
 
 digit_1 = 10;
 
 do {
-  console.log('cycle makes first round anyway');
+  console.log('Loop makes first round anyway');
   digit_1 = digit_1 + 1; // add iteration
 } while (digit_1 < 10);
 
@@ -30,7 +30,7 @@ console.log(digit_1 + ' is more than 10!');
 
 // for //////////////////////////////////////////////////////////
 
-console.log('// for cycle');
+console.log('// for Loop');
 
 var arr = [1,4,6,3,10];
 
@@ -41,9 +41,9 @@ for(i=0, sum=0; i<=arr.length; i++) {
 
 console.log(sum); // it`s not working. why?
 
-// cycle with break ////////////////////////////////////////
+// Loop with break ////////////////////////////////////////
 
-console.log('// for cycle with break');
+console.log('// for Loop with break');
 
 var arr = [1,4,6,3,10];
 
@@ -55,9 +55,9 @@ for(i=0, sum=0; i<=arr.length; i++) {
   console.log(sum);
 };
 
-// cycle with continue //////////////////////////////////////
+// Loop with continue //////////////////////////////////////
 
-console.log('// for cycle with continue');
+console.log('// for Loop with continue');
 
 var arr = [1,4,6,3,10];
 
