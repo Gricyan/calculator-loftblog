@@ -60,6 +60,7 @@
   color: #666666;
   text-transform: uppercase;
   cursor: pointer;
+  font-family: "helvetica", Arial, sans-serif;
 }
 
 .btn:hover{
